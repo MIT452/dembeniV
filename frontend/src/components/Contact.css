@@ -1,0 +1,543 @@
+/* ──────────────────────────────────────────────────────────
+   PREMIUM GOVERNMENTAL CONTACT PORTAL STYLES
+   ────────────────────────────────────────────────────────── */
+.contact-page {
+  background: #f8fafc;
+  min-height: 100vh;
+  padding-bottom: 80px;
+  font-family: 'Outfit', 'Inter', sans-serif;
+}
+
+/* HERO HEADER SECTION */
+.contact-hero-premium {
+  padding: 160px 0 110px 0;
+  background-image: url('/dembeni_lagon_aerial.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-dark-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(15, 60, 40, 0.4) 0%, rgba(6, 24, 15, 0.9) 100%);
+  z-index: 2;
+}
+
+.contact-hero-content-wrap {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text-block {
+  max-width: 750px;
+}
+
+.premium-administrative-badge {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #4ade80;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: rgba(74, 222, 128, 0.1);
+  padding: 6px 14px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.premium-hero-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0 0 16px 0;
+  letter-spacing: -0.02em;
+  color: white;
+}
+
+.premium-hero-subtitle {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+}
+
+/* CONTACT INFO CARDS */
+.contact-cards-container {
+  margin-top: -60px;
+  position: relative;
+  z-index: 10;
+}
+
+.contact-cards-grid-premium {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.premium-contact-card {
+  background: white;
+  border-radius: 24px;
+  border: 1px solid #e2e8f0;
+  padding: 28px 24px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.premium-contact-card:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+}
+
+.premium-card-icon-wrap {
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+}
+
+.premium-card-icon-wrap.green { background: #eafaf1; color: #16a34a; }
+.premium-card-icon-wrap.blue { background: #eff6ff; color: #2563eb; }
+.premium-card-icon-wrap.purple { background: #faf5ff; color: #7c3aed; }
+.premium-card-icon-wrap.orange { background: #fffbeb; color: #d97706; }
+
+.premium-card-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #0f3c28;
+  margin: 0 0 8px 0;
+}
+
+.premium-card-text {
+  font-size: 0.88rem;
+  color: #475569;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* FORM & MAP SECTION */
+.form-map-layout-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 32px;
+  margin-top: 48px;
+  align-items: start;
+}
+
+/* FORM CONTAINER */
+.contact-form-glass-premium {
+  background: white;
+  border-radius: 24px;
+  border: 1px solid #e2e8f0;
+  padding: 36px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+}
+
+.form-title-block {
+  text-align: left;
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 20px;
+  margin-bottom: 28px;
+}
+
+.form-meta-tag {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #16a34a;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.premium-form-heading {
+  font-size: 1.6rem;
+  font-weight: 850;
+  color: #0f3c28;
+  margin: 4px 0 6px 0;
+}
+
+.premium-form-desc {
+  font-size: 0.88rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.premium-grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.form-group-capsule {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.form-group-capsule.span-2-cols {
+  grid-column: span 2;
+}
+
+.form-group-capsule label {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #475569;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.premium-form-input {
+  width: 100%;
+  padding: 11px 14px;
+  border-radius: 12px;
+  border: 1.5px solid #cbd5e1;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1e293b;
+  outline: none;
+  background: #f8fafc;
+  box-sizing: border-box;
+  transition: all 0.25s;
+}
+
+.premium-form-input:focus {
+  border-color: #16a34a;
+  background: white;
+  box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.1);
+}
+
+.premium-form-input.selector-styled {
+  appearance: auto;
+}
+
+.premium-form-input.text-area-styled {
+  min-height: 140px;
+  resize: vertical;
+  padding: 12px;
+}
+
+/* REAL MAP CARD */
+.interactive-map-frame-card {
+  background: white;
+  border-radius: 24px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+}
+
+.map-frame-header-premium {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 24px;
+  border-bottom: 1px solid #f1f5f9;
+  text-align: left;
+}
+
+.map-frame-header-premium .map-icon {
+  color: #16a34a;
+}
+
+.map-title-main {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #0f3c28;
+  display: block;
+}
+
+.map-subtitle-sub {
+  font-size: 0.78rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.osm-iframe-wrapper {
+  flex: 1;
+  min-height: 380px;
+  width: 100%;
+  position: relative;
+  background: #e3f2fd;
+}
+
+.map-frame-footer-actions {
+  display: flex;
+  gap: 12px;
+  padding: 20px 24px;
+  background: #f8fafc;
+  border-top: 1px solid #f1f5f9;
+}
+
+.btn-map-action {
+  flex: 1;
+  padding: 11px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+.btn-map-action.route {
+  background: #16a34a;
+  color: white;
+}
+
+.btn-map-action.route:hover {
+  background: #15803d;
+}
+
+.btn-map-action.zoom {
+  background: white;
+  border: 1px solid #cbd5e1;
+  color: #475569;
+}
+
+.btn-map-action.zoom:hover {
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+/* FAQ MUNICIPAL SECTION */
+.faq-municipal-section {
+  margin-top: 72px;
+}
+
+.faq-intro-block-premium {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.faq-small-badge {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #16a34a;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.faq-section-title-premium {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #0f3c28;
+  margin: 4px 0 6px 0;
+}
+
+.faq-section-desc-premium {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.faq-accordion-grid-wrapper {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-premium-accordion-item {
+  background: white;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  transition: all 0.25s;
+}
+
+.faq-premium-accordion-item.open {
+  border-color: #16a34a;
+  box-shadow: 0 4px 15px rgba(22, 163, 74, 0.05);
+}
+
+.faq-accordion-question-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  text-align: left;
+}
+
+.faq-accordion-question-bar .question-icon {
+  color: #cbd5e1;
+  flex-shrink: 0;
+  transition: color 0.25s;
+}
+
+.faq-premium-accordion-item.open .question-icon {
+  color: #16a34a;
+}
+
+.faq-accordion-question-bar .question-text {
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: #1e293b;
+  flex: 1;
+}
+
+.faq-accordion-question-bar .question-chevron {
+  color: #94a3b8;
+  transition: transform 0.25s;
+}
+
+.faq-premium-accordion-item.open .question-chevron {
+  transform: rotate(180deg);
+  color: #16a34a;
+}
+
+.faq-accordion-answer-box {
+  padding: 0 24px 20px 54px;
+}
+
+.faq-accordion-answer-box .answer-text {
+  font-size: 0.88rem;
+  color: #475569;
+  line-height: 1.55;
+  margin: 0;
+  text-align: left;
+}
+
+/* EMERGENCY HOTLINE CARDS */
+.emergency-support-section-premium {
+  margin-top: 72px;
+}
+
+.emergency-grid-wrap-prem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.emergency-card-active {
+  border-radius: 24px;
+  padding: 30px;
+  text-align: left;
+  border: 1px solid transparent;
+}
+
+.emergency-card-active.red-alert {
+  background: #fef2f2;
+  border-color: #fee2e2;
+}
+
+.emergency-card-active.green-support {
+  background: #f0fdf4;
+  border-color: #dcfce7;
+}
+
+.emergency-header-row {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.emergency-icon-active {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.red-alert .emergency-icon-active { color: #ef4444; }
+.green-support .emergency-icon-active { color: #16a34a; }
+
+.emergency-header-row h4 {
+  font-size: 1.15rem;
+  font-weight: 900;
+  margin: 0 0 6px 0;
+}
+
+.red-alert h4 { color: #991b1b; }
+.green-support h4 { color: #14532d; }
+
+.emergency-header-row p {
+  font-size: 0.82rem;
+  margin: 0;
+  line-height: 1.45;
+}
+
+.red-alert p { color: #b91c1c; }
+.green-support p { color: #15803d; }
+
+.emergency-numbers-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-top: 20px;
+}
+
+.emergency-number-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.number-label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #64748b;
+  letter-spacing: 0.02em;
+}
+
+.number-val {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.red-alert .number-val { color: #7f1d1d; }
+.green-support .number-val { color: #14532d; }
+
+/* RESPONSIVE SCALING */
+@media (max-width: 1024px) {
+  .form-map-layout-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .premium-hero-title {
+    font-size: 2.1rem;
+  }
+
+  .premium-hero-subtitle {
+    font-size: 0.95rem;
+  }
+  
+  .premium-grid-form {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-group-capsule.span-2-cols {
+    grid-column: span 1;
+  }
+  
+  .emergency-grid-wrap-prem {
+    grid-template-columns: 1fr;
+  }
+  
+  .emergency-numbers-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
